@@ -1,0 +1,58 @@
+.body {
+  background-color: #555;
+}
+.navbar-fixed {
+  position: absolute;
+  z-index: 999999999;
+}
+
+.slider h3,
+.slider h5,
+.footer h5,
+.nav-wrapper a {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  font-style: "sea";
+}
+
+.title {
+  font-weight: bold;
+}
+
+.parallax-container {
+  height: 300px;
+}
+
+.parallax img {
+  height: 400px;
+}
+
+/* .slider img {
+  filter: grayscale(1);
+  opacity: 1 !important;
+} */
+
+section,
+footer {
+  padding: 20px 0;
+}
+.nav-wrapper img {
+  padding-left: 40px;
+  margin-top: 3px;
+  height: 80px;
+  width: 340px;
+}
+.nav-wrapper a {
+  padding-right: 30px;
+  padding-top: 5px;
+}
+.card-action a {
+  color: black;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.footer h5 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.portfolio {
+  background-color: blueviolet;
+}
+
