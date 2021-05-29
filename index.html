@@ -46,15 +46,11 @@
   <!-- sidenav -->
 
   <ul class="sidenav" id="mobile-nav">
+    <br><br><br>
     <li>
       <div class="user-view">
-        <a href="#name"><span class="black-text name">Kelompok 4</span></a>
-        <a href="#email"><span class="black-text email">Chyntia Citra Rachmawati</span></a>
-        <a href="#email"><span class="black-text email">Muhammad Rhyamizard Hirgy</span></a>
-        <a href="#email"><span class="black-text email">Rifaldi Arisandi</span></a>
-        <a href="#email"><span class="black-text email">Ririn Syafira Kirana</span></a>
-        <a href="#email"><span class="black-text email">Muhammad Fazril Fuady Hermawan</span></a>
-        <a href="#email"><span class="black-text email">Religi Realista Esthetika</span></a>
+        <a href="#home"><span class="black-text name">K4PAS.<span class="red-text">FASHION</span></span></a>
+        <a><span class="black-text email">fashion@k4pas.com</span></a>
       </div>
     </li>
     <li>
@@ -93,11 +89,15 @@
           </div>
         </li>
         <li>
-          <img src="img/slider2.jpg">
+          <img src="img/slider.jpg">
           <div class="caption center">
-            <h6 style="margin-top: 350px;"></h6>
-            <h5 class="light grey-text text-lighten-4">
-              Fashion is like eating, you shouldn't stick to the same menu. —Kenzo Takada
+            <h6 style="margin-top: 30px;"></h6>
+            <h5 class="light black-text text-lighten-4">
+              “What you wear is how you present yourself to the world, especially today,
+              when human
+              contacts are so
+              quick. Fashion is
+              instant language.” – Miuccia Prada
             </h5>
           </div>
         </li>
@@ -107,20 +107,39 @@
 
   <!-- About Us -->
   <section id="about" class="about scrollspy grey lighten-4">
-    <div class="container">
-      <div class="center">
-        <h3 class="center light black-text text-darken-3">About Us</h3>
-        <div class="col m10 light black-text">
-          <p>
-            K4PAS.FASHION was founded in 2021 designed by 6 students of informatics engineering mentoring group of
-            Pasundan University. We created a website that sell the
-            latest clothing. We only choose products that have the best quality, which will makes you feel satisfied
-            when
-            using them. Your satisfaction is our responsibility. Complete your fashion collection with us for the best
-            fashion style.</p>
-        </div>
-
-      </div>
+    <div class="container center"><br>
+      <h3 class="center light black-text text-darken-3">About Us</h3>
+      <div class="divider"></div><br>
+      <div class="col m10 darkgrey-text">
+        <h6>
+          K4PAS.FASHION was founded in 2021 designed by 6 students of informatics engineering mentoring group of
+          Pasundan University. We sell the
+          latest fashion product with many categories and only choose products that have the best quality, which will
+          makes you feel satisfied
+          when
+          using them. Your satisfaction is our responsibility. Complete your fashion collection with us for the best
+          fashion style.</h6>
+      </div><br>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">sync</i>Get the Latest Collection</div>
+          <div class="collapsible-body"><span>Fashion that has developed in recent years makes you pay more attention to
+              appearance. K4PAS.FASHION offers lots of choices of categories and brands to complete your
+              collection.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">stars</i>Original and Guaranteed Product</div>
+          <div class="collapsible-body"><span>K4PAS.FASHION provides premium quality directly imported by brand
+              principle so that its authenticity is guaranteed.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">local_offer</i>All Products with Affordable Prices
+          </div>
+          <div class="collapsible-body"><span>K4PAS.FASHION is your main destination for cheap and guaranteed shopping
+              for clothes. Get a discount from us by
+              following the update sale for all products.</span></div>
+        </li>
+      </ul><br>
     </div>
     </div>
   </section>
@@ -672,7 +691,8 @@
       scrollOffset: 0
     });
 
-
+    const collapsible = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(collapsible);
   </script>
 </body>
 
